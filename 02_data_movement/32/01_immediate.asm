@@ -1,5 +1,5 @@
-;  nasm -f elf32 01_register.asm 
-;ld -m elf_i386 01_register.o 
+;  nasm -f elf32 01_immediate.asm
+;ld -m elf_i386 01_immediate.o
 ;./a.out
 ;gdb -silent a.out
 ;lay asm              # layout assembly
