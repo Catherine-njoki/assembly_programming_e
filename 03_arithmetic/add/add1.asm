@@ -1,6 +1,15 @@
-; Assemble the file   : nasm -f elf32 hello_world_32.asm -o hello_world_32.o
-; Link:                 ld -m elf_i386 hello_world_32.o -o hello32 
-; Run/Execute:          ./hello32
+;  nasm -f elf32 add1.asm 
+;ld -m elf_i386 add1.o
+;./add1
+;gdb -silent a.out
+;lay asm              # layout assembly
+; lay reg             # layout registers
+;break _start        #from the break point
+;run
+;si                   #move code line to line
+;c                    #continue execution
+
+
 
 section .data
     num1 db 120   ; 01111000b

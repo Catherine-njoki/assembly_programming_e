@@ -1,3 +1,17 @@
+;  nasm -f elf32 add2.asm 
+;ld -m elf_i386 add2.o
+;./add1
+;gdb --silent a.out
+;lay asm              # layout assembly
+; lay reg             # layout registers
+;break _start        #from the break point
+;run
+;si                   #move code line to line
+;c                    #continue execution
+
+
+
+
 section .data
     num1 dw 0xFFFF ; 1111111111111111   65535
     num2 dw 1

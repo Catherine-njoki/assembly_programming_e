@@ -1,3 +1,17 @@
+;  nasm -f elf32 div3.asm 
+;ld -m elf_i386 div3.o
+;./div3
+;gdb --silent a.out
+;lay asm              # layout assembly
+; lay reg             # layout registers
+;break _start        #from the break point
+;run
+;si                   #move code line to line
+;c                    #continue execution
+
+
+
+
  ; Unsigned division: EDX:EAX / r/m32 → EAX = quotient, EDX = remainder
 
 section .data
