@@ -22,8 +22,11 @@ global _start
 
 _start:
 
-    mov eax, [num1]
-    add eax, [num2]
+    mov eax, [num1]   ; getting the value stored in num1
+    add eax, [num2]   ; getting the value stored in num2
+
+    ; mov eax, num1
+    ; add eax, num2
 
     mov ebx, eax
 
