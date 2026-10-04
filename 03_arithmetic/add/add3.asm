@@ -1,6 +1,6 @@
-;  nasm -f elf32 add2.asm 
-;ld -m elf_i386 add2.o
-;./add1
+;  nasm -f elf32 add3.asm
+;ld -m elf_i386 add3.o
+;./add3
 ;gdb --silent a.out
 ;lay asm              # layout assembly
 ; lay reg             # layout registers
