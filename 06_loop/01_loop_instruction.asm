@@ -1,3 +1,5 @@
+;nasm -f elf64 01_loop_instruction.asm -o 01_loop_instruction.o
+;ld 01_loop_instruction.o 
 section .data
     message db "Hello, Assembly!", 10
     length equ $ - message

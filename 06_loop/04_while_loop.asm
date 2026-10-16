@@ -1,3 +1,6 @@
+;  nasm -f elf64 04_while_loop.asm -o 04_while_loop.o -g
+;  ld 04_while_loop.o -o 04_while_loop
+
  section .data
     newline db 10
 

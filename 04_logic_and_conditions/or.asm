@@ -1,3 +1,6 @@
+; nasm -f elf32 or.asm
+; ld -m elf_i386 or.o
+
 ; or_example.asm
 ; Demonstrates logical OR
 ; 10101010 OR 11001100 = 11101110

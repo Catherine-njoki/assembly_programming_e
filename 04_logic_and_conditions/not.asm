@@ -1,7 +1,10 @@
+; nasm -f elf32 not.asm
+; ld -m elf_i386 not.o
+
 ; NOT 10101010 = 01010101
 
 section .data
-    val1 db 0b10101010 ; 
+    val1 db 0b10101010 ; 170 decimal
 
 section .text
     global _start

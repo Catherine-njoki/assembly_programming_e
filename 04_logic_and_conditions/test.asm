@@ -1,3 +1,6 @@
+; nasm -f elf32 test.asm
+; ld -m elf_i386 test.o
+
 ; TEST performs bitwise AND
 ; 10101010 TEST 00001111
 ; ZF=0 because at least one bit matches (AL & BL != 0)

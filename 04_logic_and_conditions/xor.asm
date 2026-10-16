@@ -1,3 +1,5 @@
+; nasm -f elf32 xor.asm
+; ld -m elf_i386 xor.o
 
 ; 10101010 XOR 11001100 = 01100110
 
