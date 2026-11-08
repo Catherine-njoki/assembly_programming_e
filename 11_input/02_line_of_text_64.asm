@@ -1,3 +1,11 @@
+;nasm -f elf64 02_line_of_text_64.asm -o 02_line_of_text_64.o
+; ld 02_line_of_text_64.o -o 02_line_of_text_64
+; gdb ./02_line_of_text_64
+; break _start
+; run
+; si
+
+
 section .data
     prompt db "Enter a line of text: "
     prompt_len equ $ - prompt

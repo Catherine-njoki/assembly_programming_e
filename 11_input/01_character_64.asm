@@ -1,3 +1,12 @@
+;nasm -f elf64 01_character_64.asm -o 01_character_64.o
+; ld 01_character_64.o -o 01_character_64
+; gdb ./01_character_64
+; break _start
+; run
+; si
+
+
+
 section .data
     prompt db "Enter one character: "
     prompt_len equ $ - prompt

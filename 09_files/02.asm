@@ -1,3 +1,11 @@
+;nasm -f elf64 02.asm -o 02.o
+; ld 02.o -o 02
+; gdb ./02
+; break _start
+; run
+; si
+
+
 section .data
     prompt     db "Enter your name: "
     prompt_len equ $ - prompt

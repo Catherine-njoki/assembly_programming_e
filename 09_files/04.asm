@@ -1,3 +1,10 @@
+;nasm -f elf64 04.asm -o 04.o
+; ld 04.o -o 04
+; gdb ./04
+; break _start
+; run
+; si
+
 section .data
     filename      db "test32.txt", 0
 
