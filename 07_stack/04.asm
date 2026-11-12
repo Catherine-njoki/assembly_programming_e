@@ -1,5 +1,5 @@
-; nasm -f elf64 04.asm -o 04.o
-; ld 04.o -o 04
+; nasm -f elf32 04.asm -o 04.o
+;ld -m elf_i386 04.o -o 04
 ; gdb ./04
 ; break _start
 ; run
